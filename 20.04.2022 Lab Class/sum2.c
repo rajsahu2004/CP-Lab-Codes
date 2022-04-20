@@ -13,10 +13,10 @@ int power(n){
 }
 
 float Total(int a){
-	double sum = 0.00;
+	float sum = 0.00;
 	int i;
 	for(i=1;i<=a;i++){
-		sum+=power(i)/factorial(i);
+		sum+=power(i,i)/factorial(i);
 	}
 	printf("%f", sum);
 }

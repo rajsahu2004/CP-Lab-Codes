@@ -22,4 +22,5 @@ int main(){
 	int i,n;
 	scanf("%d", &n);
 	Total(n);
+	// returns 1/1! + 1/2! + 1/3! + .... + 1/n!
 }

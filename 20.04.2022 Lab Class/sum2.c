@@ -26,4 +26,5 @@ int main(){
 	int i,n;
 	scanf("%d", &n);
 	Total(n);
+	// returns 1^1/1! + 2^2/2! + 3^3/3! + ... + n^n/n!
 }

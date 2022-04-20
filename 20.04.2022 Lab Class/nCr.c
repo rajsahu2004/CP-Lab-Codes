@@ -12,5 +12,6 @@ int main(){
 	scanf("%d%d", &n, &r);
 	int ncr= factorial(n)/(factorial(r)*factorial(n-r));
 	printf("%d", ncr);
+	// returns nCr = n!/(r!*(n-r)!)
 }
 

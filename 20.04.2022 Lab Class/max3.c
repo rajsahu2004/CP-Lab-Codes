@@ -15,4 +15,5 @@ int main(){
 	int a,b,c;
 	scanf("%d%d%d", &a, &b, &c);
 	max3(a,b,c);
+	// sorts them in ascending order
 }

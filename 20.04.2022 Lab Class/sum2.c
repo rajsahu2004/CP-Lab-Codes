@@ -16,7 +16,7 @@ float Total(int a){
 	float sum = 0.00;
 	int i;
 	for(i=1;i<=a;i++){
-		sum+=power(i,i)/factorial(i);
+		sum+=(float)power(i,i)/factorial(i);
 	}
 	printf("%f", sum);
 }

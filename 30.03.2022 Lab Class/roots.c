@@ -3,6 +3,7 @@
 
 int main(){
 	int a,b,c;
+	printf("Enter the values of a,b anc c\n");
 	scanf("%d%d%d", &a, &b, &c);
 	int d;
 	d = pow(b,2)-4*a*c;
